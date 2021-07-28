@@ -1,4 +1,4 @@
 export async function getInitialState() {
-    const data = {isAdmin:false,hasRoutes:['/','/user']};
-    return data;
-  }
+  const data = { isAdmin: false, hasRoutes: ['/', '/user', '/curriculum'] };
+  return data;
+}
